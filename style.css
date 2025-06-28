@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('bg.png'); /* Change name if needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: stays in place while scrolling */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #6C63FF;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-content {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .home-section {
+    background-color: #ecebff;
+    text-align: center;
+  }
+  
+  .home-section h2 {
+    font-size: 36px;
+    color: #6C63FF;
+    margin-bottom: 10px;
+  }
+  
+  .home-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* About & Contact */
+  h2 {
+    color: #6C63FF;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    color: #444;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .contact-section p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #6C63FF;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
